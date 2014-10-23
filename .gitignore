@@ -1,0 +1,63 @@
+# bower folders
+/bower_components/
+
+# npm folder
+/node_modules/
+
+# sass cache folder
+.sass-cache
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files - android project subfolder
+platforms/android/bin/
+platforms/android/gen/
+platforms/android/assets/
+
+# generated files
+bin/
+gen/
+/www/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# IOS / Xcode
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+# prevent user/profile ignore
+//profile
+*.moved-aside
+platforms/ios/www/
+
+# OSX
+.DS_Store
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
+# ignore sublime workspace
+*.sublime-workspace
